@@ -1,0 +1,29 @@
+"NEW_VERSION"       = "Neue Version";
+"NEW_VERSION_LONG"  = "Eine neue Version mit Karteninformationen wurde geladen";
+"OK"                = "Okay";
+"NO_INTERNET"       = "Keine Internet-Verbindung";
+"NO_INTERNET_LONG"  = "Leider benötigt diese App eine Internet-Verbindung";
+"BUT_ORIGINAL"      = "Ehemaliger Verlauf";
+"BUT_TODAY"		    = "Heutige Überreste";
+"BUT_BORDERS"       = "Grenzübergänge";
+"BUT_POIS"          = "POIs";
+"TITLE"             = "DieMauerHD";
+"WELCOME"		    = "Welcome";
+"WELCOME_LONG"      = "Vielen Dank, dass du die App 'DieMauer' installiert hast. Diese App soll dir dabei helfen, die Orte rund um die Berliner Mauer zu erkunden und dabei zu erkennen, wie sich die Bewohner Berlins auf beiden Seiten der Mauer gefühlt haben müssen. Die App zeigt verschiedene Orte rund um die Mauer und gibt viele Details dazu. Viel Spaß mit der App und beim Sightseeing in Berlin, Michael";
+"GO"			    = "Los geht's";
+"IMAGE_CR"          = "Dieses Bild wurde veröffentlicht unter";
+"IMAGE_AUTHOR"      = "Der Autor ist";
+"CLICK_INFO"        = "Klick für Info";
+"ABOUT"             = "Über Mich";
+"ABOUT_SUBTITLE"    = "Information über den Entwickler";
+"SETTINGS"          = "Einstellungen";
+"SETTINGS_SUBTITLE" = "Ja, hier sind die Einstellungen";
+"ABOUT_THANKS"	    = "Danke an alle die mich während der Entwicklung dieser App unterstützt haben. Vielen Dank außerdem an alle, die diese App benutzen um ihren Weg entlang der Berliner Mauer zu finden. Wenn du gerade in Berlin bist, dann viel Spaß. Wenn nicht, dann viel Spaß mit den vielen Informationen in dieser App. Wenn du Fragen oder Verbesserungsvorschlähe hast, dann benutze den Knopf unten."; 
+
+
+//Content URL and File names
+"http://www.homelessapps.de/diemauer/" = "http://www.homelessapps.de/diemauer/";
+"original.xml"	   = "original.xml";
+"borders.xml"      = "borders.xml";
+"today.xml"        = "today.xml";
+"pois.xml"         = "pois.xml";

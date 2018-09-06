@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE348059-5649-4D79-9330-791FCA752916</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DieMauerHD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>186ac6ee-c9b8-4d14-8d39-1e98b0a307b6++9818</key>
+		<string>http://svn.homelessapps.de/svn/repos/%25255BApps%25255D/DieMauerApp/DieMauerHD</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DieMauerHD.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>186ac6ee-c9b8-4d14-8d39-1e98b0a307b6++9818</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>186ac6ee-c9b8-4d14-8d39-1e98b0a307b6++9818</key>
+		<string>http://svn.homelessapps.de/svn/repos</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.homelessapps.de/svn/repos/%25255BApps%25255D/DieMauerApp/DieMauerHD/DieMauerHD.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>186ac6ee-c9b8-4d14-8d39-1e98b0a307b6++9818</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>186ac6ee-c9b8-4d14-8d39-1e98b0a307b6++9818</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DieMauerHD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

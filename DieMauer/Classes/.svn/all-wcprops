@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes
+END
+MapPoint.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapPoint.m
+END
+MapDataUpdatLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapDataUpdatLoader.h
+END
+Connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/Connection.h
+END
+ContentView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/ContentView.xib
+END
+MapDataUpdatLoader.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapDataUpdatLoader.m
+END
+ImageLoaderAndCacher.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/ImageLoaderAndCacher.h
+END
+Connection.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/Connection.m
+END
+MapLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapLocation.h
+END
+ImageLoaderAndCacher.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/ImageLoaderAndCacher.m
+END
+AboutViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/AboutViewController.h
+END
+.DS_Store
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/.DS_Store
+END
+MapLocation.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapLocation.m
+END
+AboutViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/AboutViewController.m
+END
+DieMauerAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/DieMauerAppDelegate.h
+END
+UIView+Mover.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/UIView+Mover.h
+END
+DieMauerAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/DieMauerAppDelegate.m
+END
+MapDataLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapDataLoader.h
+END
+SettingsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SettingsViewController.h
+END
+UIView+Mover.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/UIView+Mover.m
+END
+MapDataLoader.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapDataLoader.m
+END
+SettingsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SettingsViewController.m
+END
+FileLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/FileLoader.h
+END
+SpecialAnnotationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SpecialAnnotationView.h
+END
+MKMapView+ZoomLevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MKMapView+ZoomLevel.h
+END
+ContentViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/ContentViewController.h
+END
+FileLoader.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/FileLoader.m
+END
+SpecialAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SpecialAnnotation.h
+END
+SpecialAnnotationView.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SpecialAnnotationView.m
+END
+MKMapView+ZoomLevel.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MKMapView+ZoomLevel.m
+END
+ContentViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/ContentViewController.m
+END
+SpecialAnnotation.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SpecialAnnotation.m
+END
+SettingsAccess.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SettingsAccess.h
+END
+MainViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MainViewController.h
+END
+SettingsAccess.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/SettingsAccess.m
+END
+MapPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MapPoint.h
+END
+MainViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/42/%5BApps%5D/DieMauerApp/DieMauer/Classes/MainViewController.m
+END

@@ -1,0 +1,28 @@
+"NEW_VERSION"       = "New Version";
+"NEW_VERSION_LONG"  = "A new map version has been loaded";
+"OK"                = "OK";
+"NO_INTERNET"       = "No Internet Connection";
+"NO_INTERNET_LONG"  = "Unfortunately, this app needs a internet connection";
+"BUT_ORIGINAL"      = "Original Wall";
+"BUT_TODAY"		    = "Todays Ruins";
+"BUT_BORDERS"       = "Border Crossings";
+"BUT_POIS"          = "POIs";
+"TITLE"             = "BerlinWall";
+"WELCOME"		    = "Thank You and Welcome";
+"WELCOME_LONG"      = "Thank you for using BerlinWall.      This app will help you to feal the places of the original Berlin Wall and to understand what the people felt, which had to live on one of the site of this wall. You can display different types of locations, all about the Berlin Wall. I wish you very much fun with the app and have a nice time in Berlin. Thanks, Michael";
+"GO"			    = "Let's Go";
+"IMAGE_CR"          = "This image is published at Wikipedia under";
+"IMAGE_AUTHOR"      = "The author is";
+"CLICK_INFO"        = "Click for Info";	
+"ABOUT"             = "About";
+"ABOUT_SUBTITLE"    = "Information about the developer";
+"SETTINGS"          = "Settings";
+"SETTINGS_SUBTITLE" = "Yes, this are the settings";
+"ABOUT_THANKS"	    = "Thanks to everybody who supported me during the development of this iPhone app. Thanks to everybody who is using this app to find his way along the Wall in Berlin. If you are in Berlin then enjoy your stay, if not then enjoy all the information in the app. If you have by questions or feedback please use the button below"; 
+
+//Content URL and File names
+"http://www.homelessapps.de/diemauer/" = "http://www.homelessapps.de/diemauer/";
+"original.xml"	   = "original.xml";
+"borders.xml"      = "borders.xml";
+"today.xml"        = "today.xml";
+"pois.xml"         = "pois.xml";

@@ -1,0 +1,76 @@
+	//
+	//  AboutView.m
+	//  DieMauer
+	//
+	//  Created by Dietz, Michael on 9/23/10.
+	//  Copyright 2010 __MyCompanyName__. All rights reserved.
+	//
+
+#import "AboutViewController.h"
+
+
+@implementation AboutViewController
+
+@synthesize mainToolbar, textView;
+ 
+-(id)initWithDelegate:(id<ContentViewCloser>)_delegate{
+    if ((self = [super initWithNibName:@"AboutView" bundle:nil])) {
+		delegate = _delegate;
+    }
+    return self;
+	
+}
+
+-(IBAction)close{
+	[delegate closeContentView];
+}
+
+-(void)viewDidLoad{	
+	[mainToolbar.topItem setTitle:NSLocalizedString(@"TITLE", @"")];
+	textView.text = NSLocalizedString(@"ABOUT_THANKS",@"");
+}
+
+
+-(IBAction)openFeedbackForm{
+	MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
+	
+	NSMutableArray* mailAddresses = [[NSMutableArray alloc] initWithCapacity:1];
+	[mailAddresses addObject:@"mi_dietz@yahoo.de"];
+	
+	[controller setMailComposeDelegate:self];
+	[controller setToRecipients:mailAddresses];
+	[controller setSubject:@"[BerlinWall] Feedback"];
+	
+	[self presentModalViewController:controller animated:YES];
+	
+	[mailAddresses release];
+	[controller release];
+}
+
+#pragma mark MFMailComposeDelegate
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+	[controller dismissModalViewControllerAnimated:YES];
+}
+
+
+- (void)didReceiveMemoryWarning {
+		// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+		// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+		// Release any retained subviews of the main view.
+		// e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

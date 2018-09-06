@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DieMauerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DieMauerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		253C6A2111E4E4990063C658 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253C6A2011E4E4990063C658 /* MapKit.framework */; };
+		2590CC9F12D63BB0007774F0 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C0F2B012B5492B003EE891 /* MainView.xib */; };
+		2590CD7012D640AF007774F0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2590CD6F12D640AF007774F0 /* MainWindow.xib */; };
+		25A023D812B6D7B700F6FDCD /* logo57.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A023D512B6D7B700F6FDCD /* logo57.png */; };
+		25A023D912B6D7B700F6FDCD /* logo72.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A023D612B6D7B700F6FDCD /* logo72.png */; };
+		25A023DA12B6D7B700F6FDCD /* logo114.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A023D712B6D7B700F6FDCD /* logo114.png */; };
+		25BEE9D712B50667004F464F /* oliv.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BEE9D612B50667004F464F /* oliv.png */; };
+		25D221B511E5292800CD00D7 /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D221B311E5292800CD00D7 /* MapLocation.m */; };
+		26076A94125500C8000A2B14 /* niederkirchner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26076A93125500C8000A2B14 /* niederkirchner.jpg */; };
+		260945FD12382AE0001CC25A /* defaultimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260945FC12382AE0001CC25A /* defaultimage.jpg */; };
+		2614E3E111E798D900AB1DEB /* UIView+Mover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614E3E011E798D900AB1DEB /* UIView+Mover.m */; };
+		261F16B6123041050004C238 /* pois.xml in Resources */ = {isa = PBXBuildFile; fileRef = 261F16B5123041050004C238 /* pois.xml */; };
+		261F1790123179ED0004C238 /* borders.xml in Resources */ = {isa = PBXBuildFile; fileRef = 261F178F123179ED0004C238 /* borders.xml */; };
+		261F18B912318A7D0004C238 /* FileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F18B712318A7D0004C238 /* FileLoader.m */; };
+		26228B6312366477007EE199 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26228B6212366477007EE199 /* Localizable.strings */; };
+		26228C2512366BB7007EE199 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26228C2312366BB7007EE199 /* ContentViewController.m */; };
+		26228C2612366BB7007EE199 /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26228C2412366BB7007EE199 /* ContentView.xib */; };
+		26228C8D1236853D007EE199 /* ImageLoaderAndCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 26228C8C1236853D007EE199 /* ImageLoaderAndCacher.m */; };
+		262549381255B1C00023CBC0 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262549371255B1C00023CBC0 /* AboutView.xib */; };
+		262549651255B8E30023CBC0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262549631255B8E30023CBC0 /* SettingsViewController.m */; };
+		262549991255BBC50023CBC0 /* greenbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 262549981255BBC50023CBC0 /* greenbutton.png */; };
+		2625499B1255BBF30023CBC0 /* lightbluebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2625499A1255BBF30023CBC0 /* lightbluebutton.png */; };
+		262FF2C6124B9A1E0023C194 /* bernauer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262FF2BF124B9A1E0023C194 /* bernauer.jpg */; };
+		262FF2C7124B9A1E0023C194 /* heute_chausseestrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262FF2C0124B9A1E0023C194 /* heute_chausseestrasse.jpg */; };
+		262FF2C8124B9A1E0023C194 /* checkpointcharlie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262FF2C1124B9A1E0023C194 /* checkpointcharlie.jpg */; };
+		262FF2C9124B9A1E0023C194 /* bornholmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262FF2C2124B9A1E0023C194 /* bornholmer.jpg */; };
+		262FF2CA124B9A1E0023C194 /* heute_niederkirchertrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262FF2C3124B9A1E0023C194 /* heute_niederkirchertrasse.jpg */; };
+		262FF2CB124B9A1E0023C194 /* invalidenstrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262FF2C4124B9A1E0023C194 /* invalidenstrasse.jpg */; };
+		26338269125A6ECB00AB5077 /* liesenstrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26338268125A6ECB00AB5077 /* liesenstrasse.jpg */; };
+		2633827F125A72A700AB5077 /* eastsidegallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2633827E125A72A700AB5077 /* eastsidegallery.jpg */; };
+		263382EB125A7A4800AB5077 /* mauerpark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 263382EA125A7A4800AB5077 /* mauerpark.jpg */; };
+		263382FC125A7B4600AB5077 /* gartenstrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 263382FB125A7B4600AB5077 /* gartenstrasse.jpg */; };
+		26338311125A7D1400AB5077 /* potsdamerplatz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26338310125A7D1400AB5077 /* potsdamerplatz.jpg */; };
+		26338348125A7F7700AB5077 /* boesebrucke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26338347125A7F7700AB5077 /* boesebrucke.jpg */; };
+		2633837D125A831A00AB5077 /* checkpointheute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2633837C125A831A00AB5077 /* checkpointheute.jpg */; };
+		2633838A125A83F500AB5077 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26338389125A83F500AB5077 /* SettingsView.xib */; };
+		2644E22F122CF28400B7AAF3 /* MapDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644E22D122CF28400B7AAF3 /* MapDataLoader.m */; };
+		2644E23B122CF2F600B7AAF3 /* original.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2644E23A122CF2F600B7AAF3 /* original.xml */; };
+		2644E262122CF4A700B7AAF3 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644E261122CF4A700B7AAF3 /* MapPoint.m */; };
+		2644E3AF122D417B00B7AAF3 /* SettingsAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644E3AE122D417B00B7AAF3 /* SettingsAccess.m */; };
+		2644E3B3122D45A400B7AAF3 /* mauer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2644E3B2122D45A400B7AAF3 /* mauer.jpg */; };
+		2645636B12342406004FA79E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2645636A12342406004FA79E /* InfoPlist.strings */; };
+		26984656122D9C6E00C35AB5 /* today.xml in Resources */ = {isa = PBXBuildFile; fileRef = 26984655122D9C6E00C35AB5 /* today.xml */; };
+		26D2749B1233B0A100E68176 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D274991233B0A100E68176 /* Connection.m */; };
+		26D4C436125139D10072AC6A /* sonnenallee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26D4C435125139D10072AC6A /* sonnenallee.jpg */; };
+		26D4C47912513E000072AC6A /* friedrichstrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26D4C47812513E000072AC6A /* friedrichstrasse.jpg */; };
+		26D4C47D12513ECE0072AC6A /* chausseestrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26D4C47C12513ECE0072AC6A /* chausseestrasse.jpg */; };
+		26D4C491125140DB0072AC6A /* heinrichheinestrasse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26D4C490125140DB0072AC6A /* heinrichheinestrasse.jpg */; };
+		26D4C4C5125144360072AC6A /* oberbaumbrucke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26D4C4C4125144360072AC6A /* oberbaumbrucke.jpg */; };
+		26DFFA52124B60F200AAF608 /* SpecialAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DFFA4F124B60F200AAF608 /* SpecialAnnotation.m */; };
+		26DFFA53124B60F200AAF608 /* SpecialAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DFFA51124B60F200AAF608 /* SpecialAnnotationView.m */; };
+		26DFFA6D124B61A500AAF608 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DFFA69124B61A500AAF608 /* settings.png */; };
+		26DFFA6E124B61A500AAF608 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DFFA6A124B61A500AAF608 /* comment.png */; };
+		26DFFB7D124B667600AAF608 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DFFB7C124B667600AAF608 /* about.png */; };
+		26DFFB99124B6A6300AAF608 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DFFB97124B6A6300AAF608 /* AboutViewController.m */; };
+		26E145111255D20800DB219C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E145101255D20800DB219C /* MessageUI.framework */; };
+		26EB810E1232D1B200FB9AE5 /* MapDataUpdatLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EB810D1232D1B200FB9AE5 /* MapDataUpdatLoader.m */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28C286E10D94DF7D0034E888 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* MainViewController.m */; };
+		4C0C3D1413F7F94700AB678D /* kielerstrasse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C3D1313F7F94700AB678D /* kielerstrasse.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DieMauerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieMauerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DieMauerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieMauerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DieMauerHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DieMauerHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		253C6A2011E4E4990063C658 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2590CD6F12D640AF007774F0 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = SOURCE_ROOT; };
+		25A023D512B6D7B700F6FDCD /* logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo57.png; sourceTree = "<group>"; };
+		25A023D612B6D7B700F6FDCD /* logo72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo72.png; sourceTree = "<group>"; };
+		25A023D712B6D7B700F6FDCD /* logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo114.png; sourceTree = "<group>"; };
+		25BEE9D612B50667004F464F /* oliv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oliv.png; sourceTree = "<group>"; };
+		25C0F2B012B5492B003EE891 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainView.xib; path = "../Resources-iPad/MainView.xib"; sourceTree = "<group>"; };
+		25D221B311E5292800CD00D7 /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		25D221B411E5292800CD00D7 /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		26076A93125500C8000A2B14 /* niederkirchner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = niederkirchner.jpg; sourceTree = "<group>"; };
+		260945FC12382AE0001CC25A /* defaultimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultimage.jpg; sourceTree = "<group>"; };
+		2614E3DF11E798D900AB1DEB /* UIView+Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Mover.h"; sourceTree = "<group>"; };
+		2614E3E011E798D900AB1DEB /* UIView+Mover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Mover.m"; sourceTree = "<group>"; };
+		261F16B5123041050004C238 /* pois.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pois.xml; sourceTree = "<group>"; wrapsLines = 1; };
+		261F178F123179ED0004C238 /* borders.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = borders.xml; sourceTree = "<group>"; wrapsLines = 1; };
+		261F18B612318A7D0004C238 /* FileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoader.h; sourceTree = "<group>"; };
+		261F18B712318A7D0004C238 /* FileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLoader.m; sourceTree = "<group>"; };
+		26228B641236647D007EE199 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		26228C2212366BB7007EE199 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		26228C2312366BB7007EE199 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		26228C2412366BB7007EE199 /* ContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+		26228C8B1236853D007EE199 /* ImageLoaderAndCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoaderAndCacher.h; sourceTree = "<group>"; };
+		26228C8C1236853D007EE199 /* ImageLoaderAndCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoaderAndCacher.m; sourceTree = "<group>"; };
+		262549391255B1C50023CBC0 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/AboutView.xib; sourceTree = "<group>"; };
+		262549621255B8E30023CBC0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		262549631255B8E30023CBC0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		262549641255B8E30023CBC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SettingsView.xib; sourceTree = "<group>"; };
+		262549981255BBC50023CBC0 /* greenbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbutton.png; sourceTree = "<group>"; };
+		2625499A1255BBF30023CBC0 /* lightbluebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbluebutton.png; sourceTree = "<group>"; };
+		262FF2BF124B9A1E0023C194 /* bernauer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bernauer.jpg; sourceTree = "<group>"; };
+		262FF2C0124B9A1E0023C194 /* heute_chausseestrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heute_chausseestrasse.jpg; sourceTree = "<group>"; };
+		262FF2C1124B9A1E0023C194 /* checkpointcharlie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkpointcharlie.jpg; sourceTree = "<group>"; };
+		262FF2C2124B9A1E0023C194 /* bornholmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bornholmer.jpg; sourceTree = "<group>"; };
+		262FF2C3124B9A1E0023C194 /* heute_niederkirchertrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heute_niederkirchertrasse.jpg; sourceTree = "<group>"; };
+		262FF2C4124B9A1E0023C194 /* invalidenstrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invalidenstrasse.jpg; sourceTree = "<group>"; };
+		26338268125A6ECB00AB5077 /* liesenstrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liesenstrasse.jpg; sourceTree = "<group>"; };
+		2633827E125A72A700AB5077 /* eastsidegallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eastsidegallery.jpg; sourceTree = "<group>"; };
+		263382EA125A7A4800AB5077 /* mauerpark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mauerpark.jpg; sourceTree = "<group>"; };
+		263382FB125A7B4600AB5077 /* gartenstrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gartenstrasse.jpg; sourceTree = "<group>"; };
+		26338310125A7D1400AB5077 /* potsdamerplatz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potsdamerplatz.jpg; sourceTree = "<group>"; };
+		26338347125A7F7700AB5077 /* boesebrucke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boesebrucke.jpg; sourceTree = "<group>"; };
+		2633837C125A831A00AB5077 /* checkpointheute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkpointheute.jpg; sourceTree = "<group>"; };
+		2633838B125A83FB00AB5077 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/SettingsView.xib; sourceTree = "<group>"; };
+		2644E22D122CF28400B7AAF3 /* MapDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataLoader.m; sourceTree = "<group>"; };
+		2644E22E122CF28400B7AAF3 /* MapDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDataLoader.h; sourceTree = "<group>"; };
+		2644E23A122CF2F600B7AAF3 /* original.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = original.xml; sourceTree = "<group>"; };
+		2644E260122CF4A700B7AAF3 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		2644E261122CF4A700B7AAF3 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		2644E3AD122D417B00B7AAF3 /* SettingsAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsAccess.h; sourceTree = "<group>"; };
+		2644E3AE122D417B00B7AAF3 /* SettingsAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsAccess.m; sourceTree = "<group>"; };
+		2644E3B2122D45A400B7AAF3 /* mauer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mauer.jpg; sourceTree = "<group>"; };
+		26456368123423F0004FA79E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2645636C12342420004FA79E /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2645637512342475004FA79E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		268FE32B123661E700A34603 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26984655122D9C6E00C35AB5 /* today.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = today.xml; sourceTree = "<group>"; wrapsLines = 1; };
+		26D274981233B0A100E68176 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		26D274991233B0A100E68176 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		26D4C435125139D10072AC6A /* sonnenallee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sonnenallee.jpg; sourceTree = "<group>"; };
+		26D4C47812513E000072AC6A /* friedrichstrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friedrichstrasse.jpg; sourceTree = "<group>"; };
+		26D4C47C12513ECE0072AC6A /* chausseestrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chausseestrasse.jpg; sourceTree = "<group>"; };
+		26D4C490125140DB0072AC6A /* heinrichheinestrasse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heinrichheinestrasse.jpg; sourceTree = "<group>"; };
+		26D4C4C4125144360072AC6A /* oberbaumbrucke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oberbaumbrucke.jpg; sourceTree = "<group>"; };
+		26DFFA4E124B60F200AAF608 /* SpecialAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialAnnotation.h; sourceTree = "<group>"; };
+		26DFFA4F124B60F200AAF608 /* SpecialAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialAnnotation.m; sourceTree = "<group>"; };
+		26DFFA50124B60F200AAF608 /* SpecialAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialAnnotationView.h; sourceTree = "<group>"; };
+		26DFFA51124B60F200AAF608 /* SpecialAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialAnnotationView.m; sourceTree = "<group>"; };
+		26DFFA69124B61A500AAF608 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		26DFFA6A124B61A500AAF608 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		26DFFB7C124B667600AAF608 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		26DFFB96124B6A6300AAF608 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		26DFFB97124B6A6300AAF608 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		26DFFB98124B6A6300AAF608 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AboutView.xib; sourceTree = "<group>"; };
+		26E145101255D20800DB219C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		26EB810C1232D1B200FB9AE5 /* MapDataUpdatLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDataUpdatLoader.h; sourceTree = "<group>"; };
+		26EB810D1232D1B200FB9AE5 /* MapDataUpdatLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataUpdatLoader.m; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* DieMauerHD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieMauerHD_Prefix.pch; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C0C3D1313F7F94700AB678D /* kielerstrasse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kielerstrasse.png; sourceTree = "<group>"; };
+		4C5FA41913F46D4200AA807B /* DieMauerHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DieMauerHD-Info.plist"; sourceTree = "<group>"; };
+		4C5FA41B13F46D4200AA807B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5FA41D13F46D4200AA807B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5FA41F13F46D4200AA807B /* DieMauerHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DieMauerHD-Prefix.pch"; sourceTree = "<group>"; };
+		4C5FA42013F46D4200AA807B /* DieMauerHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieMauerHDAppDelegate.h; sourceTree = "<group>"; };
+		4C5FA42113F46D4200AA807B /* DieMauerHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DieMauerHDAppDelegate.m; sourceTree = "<group>"; };
+		4C5FA42413F46D4200AA807B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C5FA42A13F46DE700AA807B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C5FA42C13F46DEF00AA807B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				253C6A2111E4E4990063C658 /* MapKit.framework in Frameworks */,
+				26E145111255D20800DB219C /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2597D83811E52FE6005D68FE /* Utils */,
+				25D221B211E5291400CD00D7 /* Model */,
+				25D221AF11E528F900CD00D7 /* UI */,
+				25694DBE120F41160072FE7A /* MainApp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DieMauerHD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25694DBE120F41160072FE7A /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				2590CD6F12D640AF007774F0 /* MainWindow.xib */,
+				1D3623240D0F684500981E51 /* DieMauerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DieMauerAppDelegate.m */,
+			);
+			name = MainApp;
+			sourceTree = "<group>";
+		};
+		2597D83811E52FE6005D68FE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2644E3AC122D412F00B7AAF3 /* Settings */,
+				2614E3DE11E798C600AB1DEB /* ToolbarMover */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		2597D92511E5C269005D68FE /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				264563731234244A004FA79E /* i18n */,
+				261F168A122FD5380004C238 /* img */,
+				261F167A122FD5160004C238 /* content */,
+				2645637412342457004FA79E /* others */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		25D221AF11E528F900CD00D7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				25D221B011E528FC00CD00D7 /* MainView */,
+				261F1AD212319C140004C238 /* ContentView */,
+				26DFFB92124B673400AAF608 /* AboutView */,
+				262549461255B2200023CBC0 /* SettingsView */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		25D221B011E528FC00CD00D7 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				25C0F2B012B5492B003EE891 /* MainView.xib */,
+				28C286DF0D94DF7D0034E888 /* MainViewController.h */,
+				28C286E00D94DF7D0034E888 /* MainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		25D221B211E5291400CD00D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26DFFA49124B607800AAF608 /* SpecialAnnotation */,
+				261F18B512318A5D0004C238 /* Connection */,
+				2644E1E7122CEC9100B7AAF3 /* MapLoaderAndObject */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2614E3DE11E798C600AB1DEB /* ToolbarMover */ = {
+			isa = PBXGroup;
+			children = (
+				2614E3DF11E798D900AB1DEB /* UIView+Mover.h */,
+				2614E3E011E798D900AB1DEB /* UIView+Mover.m */,
+			);
+			name = ToolbarMover;
+			sourceTree = "<group>";
+		};
+		261F167A122FD5160004C238 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C3D1313F7F94700AB678D /* kielerstrasse.png */,
+				25BEE9D612B50667004F464F /* oliv.png */,
+				2633837C125A831A00AB5077 /* checkpointheute.jpg */,
+				26338347125A7F7700AB5077 /* boesebrucke.jpg */,
+				26338310125A7D1400AB5077 /* potsdamerplatz.jpg */,
+				263382FB125A7B4600AB5077 /* gartenstrasse.jpg */,
+				263382EA125A7A4800AB5077 /* mauerpark.jpg */,
+				2633827E125A72A700AB5077 /* eastsidegallery.jpg */,
+				26338268125A6ECB00AB5077 /* liesenstrasse.jpg */,
+				26076A93125500C8000A2B14 /* niederkirchner.jpg */,
+				26D4C4C4125144360072AC6A /* oberbaumbrucke.jpg */,
+				26D4C490125140DB0072AC6A /* heinrichheinestrasse.jpg */,
+				26D4C47C12513ECE0072AC6A /* chausseestrasse.jpg */,
+				26D4C47812513E000072AC6A /* friedrichstrasse.jpg */,
+				26D4C435125139D10072AC6A /* sonnenallee.jpg */,
+				262FF2BF124B9A1E0023C194 /* bernauer.jpg */,
+				262FF2C0124B9A1E0023C194 /* heute_chausseestrasse.jpg */,
+				262FF2C1124B9A1E0023C194 /* checkpointcharlie.jpg */,
+				262FF2C2124B9A1E0023C194 /* bornholmer.jpg */,
+				262FF2C3124B9A1E0023C194 /* heute_niederkirchertrasse.jpg */,
+				262FF2C4124B9A1E0023C194 /* invalidenstrasse.jpg */,
+				2644E23A122CF2F600B7AAF3 /* original.xml */,
+				261F178F123179ED0004C238 /* borders.xml */,
+				26984655122D9C6E00C35AB5 /* today.xml */,
+				261F16B5123041050004C238 /* pois.xml */,
+			);
+			name = content;
+			sourceTree = "<group>";
+		};
+		261F168A122FD5380004C238 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				25A023D512B6D7B700F6FDCD /* logo57.png */,
+				25A023D612B6D7B700F6FDCD /* logo72.png */,
+				25A023D712B6D7B700F6FDCD /* logo114.png */,
+				2625499A1255BBF30023CBC0 /* lightbluebutton.png */,
+				262549981255BBC50023CBC0 /* greenbutton.png */,
+				26DFFB7C124B667600AAF608 /* about.png */,
+				26DFFA69124B61A500AAF608 /* settings.png */,
+				26DFFA6A124B61A500AAF608 /* comment.png */,
+				260945FC12382AE0001CC25A /* defaultimage.jpg */,
+				2644E3B2122D45A400B7AAF3 /* mauer.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		261F18B512318A5D0004C238 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				26D274981233B0A100E68176 /* Connection.h */,
+				26D274991233B0A100E68176 /* Connection.m */,
+				261F18B612318A7D0004C238 /* FileLoader.h */,
+				261F18B712318A7D0004C238 /* FileLoader.m */,
+				26EB810C1232D1B200FB9AE5 /* MapDataUpdatLoader.h */,
+				26EB810D1232D1B200FB9AE5 /* MapDataUpdatLoader.m */,
+				26228C8B1236853D007EE199 /* ImageLoaderAndCacher.h */,
+				26228C8C1236853D007EE199 /* ImageLoaderAndCacher.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		261F1AD212319C140004C238 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				26228C2412366BB7007EE199 /* ContentView.xib */,
+				26228C2212366BB7007EE199 /* ContentViewController.h */,
+				26228C2312366BB7007EE199 /* ContentViewController.m */,
+			);
+			name = ContentView;
+			sourceTree = "<group>";
+		};
+		262549461255B2200023CBC0 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				26338389125A83F500AB5077 /* SettingsView.xib */,
+				262549621255B8E30023CBC0 /* SettingsViewController.h */,
+				262549631255B8E30023CBC0 /* SettingsViewController.m */,
+			);
+			name = SettingsView;
+			sourceTree = "<group>";
+		};
+		2644E1E7122CEC9100B7AAF3 /* MapLoaderAndObject */ = {
+			isa = PBXGroup;
+			children = (
+				2644E22E122CF28400B7AAF3 /* MapDataLoader.h */,
+				2644E22D122CF28400B7AAF3 /* MapDataLoader.m */,
+				2644E260122CF4A700B7AAF3 /* MapPoint.h */,
+				2644E261122CF4A700B7AAF3 /* MapPoint.m */,
+				25D221B411E5292800CD00D7 /* MapLocation.h */,
+				25D221B311E5292800CD00D7 /* MapLocation.m */,
+			);
+			name = MapLoaderAndObject;
+			sourceTree = "<group>";
+		};
+		2644E3AC122D412F00B7AAF3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2644E3AD122D417B00B7AAF3 /* SettingsAccess.h */,
+				2644E3AE122D417B00B7AAF3 /* SettingsAccess.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		264563731234244A004FA79E /* i18n */ = {
+			isa = PBXGroup;
+			children = (
+				2645636A12342406004FA79E /* InfoPlist.strings */,
+				26228B6212366477007EE199 /* Localizable.strings */,
+			);
+			name = i18n;
+			sourceTree = "<group>";
+		};
+		2645637412342457004FA79E /* others */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* DieMauerHD_Prefix.pch */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		26DFFA49124B607800AAF608 /* SpecialAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				26DFFA4E124B60F200AAF608 /* SpecialAnnotation.h */,
+				26DFFA4F124B60F200AAF608 /* SpecialAnnotation.m */,
+				26DFFA50124B60F200AAF608 /* SpecialAnnotationView.h */,
+				26DFFA51124B60F200AAF608 /* SpecialAnnotationView.m */,
+			);
+			name = SpecialAnnotation;
+			sourceTree = "<group>";
+		};
+		26DFFB92124B673400AAF608 /* AboutView */ = {
+			isa = PBXGroup;
+			children = (
+				262549371255B1C00023CBC0 /* AboutView.xib */,
+				26DFFB96124B6A6300AAF608 /* AboutViewController.h */,
+				26DFFB97124B6A6300AAF608 /* AboutViewController.m */,
+			);
+			name = AboutView;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4C5FA42C13F46DEF00AA807B /* MessageUI.framework */,
+				4C5FA42A13F46DE700AA807B /* MapKit.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				2597D92511E5C269005D68FE /* Ressources */,
+				4C5FA41713F46D4200AA807B /* DieMauerHD */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				253C6A2011E4E4990063C658 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				26E145101255D20800DB219C /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5FA41713F46D4200AA807B /* DieMauerHD */ = {
+			isa = PBXGroup;
+			children = (
+				4C5FA42013F46D4200AA807B /* DieMauerHDAppDelegate.h */,
+				4C5FA42113F46D4200AA807B /* DieMauerHDAppDelegate.m */,
+				4C5FA42313F46D4200AA807B /* MainWindow.xib */,
+				4C5FA41813F46D4200AA807B /* Supporting Files */,
+			);
+			path = DieMauerHD;
+			sourceTree = "<group>";
+		};
+		4C5FA41813F46D4200AA807B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5FA41913F46D4200AA807B /* DieMauerHD-Info.plist */,
+				4C5FA41A13F46D4200AA807B /* InfoPlist.strings */,
+				4C5FA41D13F46D4200AA807B /* main.m */,
+				4C5FA41F13F46D4200AA807B /* DieMauerHD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DieMauerHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DieMauerHD" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DieMauerHD;
+			productName = MapGameiPhone;
+			productReference = 1D6058910D05DD3D006BFB54 /* DieMauerHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DieMauerHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				Chinese,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DieMauerHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2644E23B122CF2F600B7AAF3 /* original.xml in Resources */,
+				2644E3B3122D45A400B7AAF3 /* mauer.jpg in Resources */,
+				26984656122D9C6E00C35AB5 /* today.xml in Resources */,
+				261F16B6123041050004C238 /* pois.xml in Resources */,
+				261F1790123179ED0004C238 /* borders.xml in Resources */,
+				2645636B12342406004FA79E /* InfoPlist.strings in Resources */,
+				26228B6312366477007EE199 /* Localizable.strings in Resources */,
+				26228C2612366BB7007EE199 /* ContentView.xib in Resources */,
+				260945FD12382AE0001CC25A /* defaultimage.jpg in Resources */,
+				26DFFA6D124B61A500AAF608 /* settings.png in Resources */,
+				26DFFA6E124B61A500AAF608 /* comment.png in Resources */,
+				26DFFB7D124B667600AAF608 /* about.png in Resources */,
+				262549381255B1C00023CBC0 /* AboutView.xib in Resources */,
+				262FF2C6124B9A1E0023C194 /* bernauer.jpg in Resources */,
+				262FF2C7124B9A1E0023C194 /* heute_chausseestrasse.jpg in Resources */,
+				262FF2C8124B9A1E0023C194 /* checkpointcharlie.jpg in Resources */,
+				262FF2C9124B9A1E0023C194 /* bornholmer.jpg in Resources */,
+				262FF2CA124B9A1E0023C194 /* heute_niederkirchertrasse.jpg in Resources */,
+				262FF2CB124B9A1E0023C194 /* invalidenstrasse.jpg in Resources */,
+				26D4C436125139D10072AC6A /* sonnenallee.jpg in Resources */,
+				26D4C47912513E000072AC6A /* friedrichstrasse.jpg in Resources */,
+				26D4C47D12513ECE0072AC6A /* chausseestrasse.jpg in Resources */,
+				26D4C491125140DB0072AC6A /* heinrichheinestrasse.jpg in Resources */,
+				26D4C4C5125144360072AC6A /* oberbaumbrucke.jpg in Resources */,
+				26076A94125500C8000A2B14 /* niederkirchner.jpg in Resources */,
+				2633838A125A83F500AB5077 /* SettingsView.xib in Resources */,
+				262549991255BBC50023CBC0 /* greenbutton.png in Resources */,
+				2625499B1255BBF30023CBC0 /* lightbluebutton.png in Resources */,
+				26338269125A6ECB00AB5077 /* liesenstrasse.jpg in Resources */,
+				2633827F125A72A700AB5077 /* eastsidegallery.jpg in Resources */,
+				263382EB125A7A4800AB5077 /* mauerpark.jpg in Resources */,
+				263382FC125A7B4600AB5077 /* gartenstrasse.jpg in Resources */,
+				26338311125A7D1400AB5077 /* potsdamerplatz.jpg in Resources */,
+				26338348125A7F7700AB5077 /* boesebrucke.jpg in Resources */,
+				2633837D125A831A00AB5077 /* checkpointheute.jpg in Resources */,
+				25BEE9D712B50667004F464F /* oliv.png in Resources */,
+				25A023D812B6D7B700F6FDCD /* logo57.png in Resources */,
+				25A023D912B6D7B700F6FDCD /* logo72.png in Resources */,
+				25A023DA12B6D7B700F6FDCD /* logo114.png in Resources */,
+				2590CC9F12D63BB0007774F0 /* MainView.xib in Resources */,
+				2590CD7012D640AF007774F0 /* MainWindow.xib in Resources */,
+				4C0C3D1413F7F94700AB678D /* kielerstrasse.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DieMauerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* MainViewController.m in Sources */,
+				25D221B511E5292800CD00D7 /* MapLocation.m in Sources */,
+				2614E3E111E798D900AB1DEB /* UIView+Mover.m in Sources */,
+				2644E22F122CF28400B7AAF3 /* MapDataLoader.m in Sources */,
+				2644E262122CF4A700B7AAF3 /* MapPoint.m in Sources */,
+				2644E3AF122D417B00B7AAF3 /* SettingsAccess.m in Sources */,
+				261F18B912318A7D0004C238 /* FileLoader.m in Sources */,
+				26EB810E1232D1B200FB9AE5 /* MapDataUpdatLoader.m in Sources */,
+				26D2749B1233B0A100E68176 /* Connection.m in Sources */,
+				26228C2512366BB7007EE199 /* ContentViewController.m in Sources */,
+				26228C8D1236853D007EE199 /* ImageLoaderAndCacher.m in Sources */,
+				26DFFA52124B60F200AAF608 /* SpecialAnnotation.m in Sources */,
+				26DFFA53124B60F200AAF608 /* SpecialAnnotationView.m in Sources */,
+				26DFFB99124B6A6300AAF608 /* AboutViewController.m in Sources */,
+				262549651255B8E30023CBC0 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26228B6212366477007EE199 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2645637512342475004FA79E /* English */,
+				26228B641236647D007EE199 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		262549371255B1C00023CBC0 /* AboutView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DFFB98124B6A6300AAF608 /* English */,
+				262549391255B1C50023CBC0 /* German */,
+			);
+			name = AboutView.xib;
+			sourceTree = "<group>";
+		};
+		26338389125A83F500AB5077 /* SettingsView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262549641255B8E30023CBC0 /* English */,
+				2633838B125A83FB00AB5077 /* German */,
+			);
+			name = SettingsView.xib;
+			sourceTree = "<group>";
+		};
+		2645636A12342406004FA79E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26456368123423F0004FA79E /* English */,
+				2645636C12342420004FA79E /* German */,
+				268FE32B123661E700A34603 /* French */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C5FA41A13F46D4200AA807B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5FA41B13F46D4200AA807B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C5FA42313F46D4200AA807B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5FA42413F46D4200AA807B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DieMauerHD_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = DieMauerHD;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DieMauerHD_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = DieMauerHD;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = DieMauerHD;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = DieMauerHD;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DieMauerHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DieMauerHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
